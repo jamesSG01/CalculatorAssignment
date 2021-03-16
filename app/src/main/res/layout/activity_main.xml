@@ -58,9 +58,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#E04056"
                 android:onClick="clearText"
-                android:backgroundTint="#2B3139"
-                android:text="@string/clear" />
+                android:text="@string/clear"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button18"
@@ -68,29 +69,32 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:onClick="expButton"
                 android:backgroundTint="#2B3139"
-                android:text="@string/powerNotation" />
+                android:onClick="expButton"
+                android:text="@string/powerNotation"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
-                android:backgroundTint="#2B3139"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="parBTN"
-                android:text="@string/oar" />
+                android:text="@string/oar"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
-                android:backgroundTint="#2B3139"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="divideButton"
-                android:text="@string/divide" />
+                android:text="@string/divide"
+                android:textSize="24sp" />
 
         </TableRow>
 
@@ -105,7 +109,8 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2B3139"
-                android:text="@string/_7" />
+                android:text="@string/_7"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button2"
@@ -113,9 +118,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:onClick="eightButton"
                 android:backgroundTint="#2B3139"
-                android:text="@string/_8" />
+                android:onClick="eightButton"
+                android:text="@string/_8"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button"
@@ -123,9 +129,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:onClick="nineButton"
                 android:backgroundTint="#2B3139"
-                android:text="@string/_9" />
+                android:onClick="nineButton"
+                android:text="@string/_9"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button12"
@@ -133,9 +140,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:onClick="multiplyButton"
                 android:backgroundTint="#2B3139"
-                android:text="@string/multiplyingNotation" />
+                android:onClick="multiplyButton"
+                android:text="@string/multiplyingNotation"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
@@ -145,42 +153,46 @@
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
-                android:backgroundTint="#2B3139"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="fourButton"
-                android:text="@string/_4" />
+                android:text="@string/_4"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
-                android:backgroundTint="#2B3139"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="fiveButton"
-                android:text="@string/_5" />
+                android:text="@string/_5"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
-                android:backgroundTint="#2B3139"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="sixButton"
-                android:text="@string/_6" />
+                android:text="@string/_6"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="wrap_content"
-                android:backgroundTint="#2B3139"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="substractButton"
-                android:text="@string/substractNotation" />
+                android:text="@string/substractNotation"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
@@ -195,7 +207,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#2B3139"
                 android:onClick="oneButton"
-                android:text="@string/_1" />
+                android:text="@string/_1"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button8"
@@ -203,9 +216,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:onClick="twoButton"
                 android:backgroundTint="#2B3139"
-                android:text="@string/_2" />
+                android:onClick="twoButton"
+                android:text="@string/_2"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button7"
@@ -215,7 +229,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#2B3139"
                 android:onClick="threeButton"
-                android:text="@string/_3" />
+                android:text="@string/_3"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button14"
@@ -223,6 +238,12 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
+                android:onClick="addButton"
+                android:text="@string/addingNotation"
+                android:textSize="24sp" />
+        </TableRow>
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -233,7 +254,9 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/_0" />
+                android:backgroundTint="#2B3139"
+                android:text="@string/_0"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button17"
@@ -241,8 +264,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="dotButton"
-                android:text="@string/dot" />
+                android:text="@string/dot"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button19"
@@ -250,8 +275,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#2B3139"
                 android:onClick="divideButton"
-                android:text="@string/percentageNotation" />
+                android:text="@string/percentageNotation"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button16"
@@ -259,8 +286,10 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:backgroundTint="#0ECB81"
                 android:onClick="equalButton"
-                android:text="@string/equal" />
+                android:text="@string/equal"
+                android:textSize="24sp" />
 
         </TableRow>
     </TableLayout>
