@@ -223,11 +223,6 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="#2B3139"
-                android:onClick="addButton"
-                android:text="@string/addingNotation" />
-        </TableRow>
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
