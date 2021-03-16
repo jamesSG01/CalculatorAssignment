@@ -15,6 +15,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         text = findViewById(R.id.result_display);
+        //clear text when click on display.
+        text.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (getString(R.string.display).equals(text.getText().toString())){
+                    text.setText("");
+                }
+            }
+        });
+
     }
     public void updateTxt(String toAddStr) {
         String oldStr = text.getText().toString();
@@ -44,13 +54,14 @@ public class MainActivity extends AppCompatActivity {
             if (text.getText().toString().substring(i,i+1).equals(")")){
                 closedPar += 1;
             }
-
-            if (openPar == closedPar || text.getText().toString().substring(textLen-1,textLen).equals("(")) {
-                updateTxt(")");
-                text.setSelection(cursorPos+1);
-            }
-            text.setSelection(cursorPos+1);
         }
+        if (openPar == closedPar || text.getText().toString().substring(textLen-1,textLen).equals("(")) {
+            updateTxt("(");
+            text.setSelection(cursorPos+1);
+        } else if (closedPar < openPar && !text.getText().toString().substring(textLen-1,textLen).equals(")")) {
+            updateTxt(")");
+        }
+        text.setSelection(cursorPos+1);
     }
     public void backspaceButton(View view) {
         int cursorPos = text.getSelectionStart();
@@ -64,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void clearText(View view) {
-        updateTxt("");
+        text.setText("");
     }
     public void equalButton(View view) {
         String userExp = text.getText().toString();

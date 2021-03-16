@@ -16,12 +16,17 @@
         android:text="@string/display"
         android:textAlignment="textEnd"
         android:textColor="#FFFFFF"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.060000002" />
+        app:layout_constraintVertical_bias="0.060000002"
+        android:autofillHints="false"
+        android:inputType="none"
+        tools:ignore="LableFor"
+        />
 
     <ImageButton
         android:id="@+id/backspace"
@@ -30,7 +35,7 @@
         android:layout_weight="1"
         android:contentDescription="@string/backspace"
         android:onClick="backspaceButton"
-        android:backgroundTint="#F6465D"
+        android:backgroundTint="#2B3139"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
