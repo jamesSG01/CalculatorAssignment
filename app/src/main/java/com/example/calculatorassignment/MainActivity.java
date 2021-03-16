@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void equalButton(View view) {
         String userExp = text.getText().toString();
-        userExp = userExp.replaceAll("÷ ","/");
+        userExp = userExp.replaceAll("÷","/");
         userExp = userExp.replaceAll("×", "*");
 
         Expression exp = new Expression(userExp);
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
         updateTxt("×");
     }
     public void divideButton(View view) {
-        updateTxt("÷ ");
+        updateTxt("÷");
     }
     public void expButton(View view) {
         updateTxt("^");

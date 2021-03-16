@@ -263,6 +263,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="#2B3139"
+                android:onClick="zeroButton"
                 android:text="@string/_0"
                 android:textSize="24sp" />
 
