@@ -77,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
         text.setText(result);
         text.setSelection(result.length());
     }
+    public void percentButton(View view) {
+        updateTxt("%");
+    }
     public void dotButton(View view) {
         updateTxt(".");
     }
